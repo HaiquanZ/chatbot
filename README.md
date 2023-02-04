@@ -1,2 +1,2 @@
 # Project AI: Chatbot
-## Thư viện liên quan: nltk, torch
+## Thư viện liên quan: `nltk` , `pytorch`
