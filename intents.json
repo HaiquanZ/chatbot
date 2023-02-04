@@ -1,0 +1,70 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day",
+        "What's up"
+      ],
+      "responses": [
+        "Hi, wellcome to our shop",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!", "Nice"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "ask_product",
+      "patterns": ["What do you have?", "What does this store sell?"],
+      "responses": ["We have food and drinks"]
+    },
+    {
+      "tag": "ask_food",
+      "patterns": ["Can you provide me the list of food?", "What food do you have?"],
+      "responses": ["We have pho, banhmi, and some kind of fastfood like chips and KFC"]
+    },
+    {
+      "tag": "rec_food",
+      "patterns": ["I don't know what to eat?", "What should I eat"],
+      "responses":
+      [
+        "We have a special ingredient for this dish that can't be found anywhere else",
+        "What about banhmi, we have pate banhmi, grilled meat banhmi, pork bologna banhmi",
+        "You should try our KFC"
+      ]
+    },
+    {
+      "tag": "ask_drink",
+      "patterns": ["Can you provide me the list of drinks?", "What drink do you have?"],
+      "responses": ["We have milk tea, coffee, lemonade, iced tea, orange juice, cocacola, 7up"]
+    },
+    {
+      "tag": "rec_drink",
+      "patterns": ["What should I drink?", "I don't know what to drink"],
+      "responses": [
+        "You should try our milk tea",
+        "What about coffee",
+        "Iced tea won't be the bad idea"
+      ]
+    }
+  ]
+}
